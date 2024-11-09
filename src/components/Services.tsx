@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div id="servises">
     <div className="container">
-        <h1 className="sub_title">My servises</h1>
+        <h1 className="sub_title">My services</h1>
         <div className="servises_list">
             <div>
                 <FaCode className='text-3xl'/>
