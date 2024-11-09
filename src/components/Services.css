@@ -58,8 +58,10 @@
     padding-right: 0px;
 
     }
-    .servises_list{
+       .servises_list{
         margin-top:50px ;
+        display: inline;
+        flex-direction: row;
     }
     .sub_title{
         font-size: 40px;
