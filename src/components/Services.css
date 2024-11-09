@@ -1,0 +1,102 @@
+#servises{
+    padding: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.servises_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px , 1fr));
+    grid-gap: 40px;
+    margin-top:50px ;
+}
+.sub_title{
+    font-size: 40px;
+    color: rgb(207, 30, 60);
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.servises_list div{
+    background:rgb(207, 30, 60);
+    color: white;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s , transform 0.5s;
+}
+.servises_list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.servises_list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.servises_list div a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.servises_list div:hover{
+    background: rgb(204, 120, 134);
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width : 600px){
+#servises{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    }
+    .servises_list{
+        margin-top:50px ;
+    }
+    .sub_title{
+        font-size: 40px;
+        color: rgb(207, 30, 60);
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .servises_list div{
+        background:rgb(207, 30, 60);
+        color: white;
+        padding: 40px;
+        font-size: 15px;
+        font-weight: 300;
+        border-radius: 10px;
+        transition: background 0.5s , transform 0.5s;
+    }
+    .servises_list div i{
+        font-size: 50px;
+        margin-bottom: 30px;
+    
+    }
+    .servises_list div h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .servises_list div a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+        display: inline-block;
+    }
+    .servises_list div:hover{
+        background: rgb(204, 120, 134);
+        transform: translateY(-10px);
+    }
+
+}

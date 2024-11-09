@@ -1,0 +1,21 @@
+.nav ul{
+    display: flex;
+    gap: 50px;
+    font-weight: 900;
+    color: rgb(207, 30, 60);
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+@media only screen and (max-width : 600px){
+    .nav ul{
+        display: flex;
+        gap: 20px;
+        font-weight: 900;
+        color: rgb(207, 30, 60);
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size:medium;
+    }
+}
